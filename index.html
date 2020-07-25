@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> David Chu's China Bistro</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+</head>
+<body>
+        
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+            <a class="navbar-brand" href="index.html">DAVID CHU'S CHINA BISTRO</a>
+            <button class="navbar-toggler visible-xs" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li id="navHomeButton" class="nav-item visible-xs active">
+                    <a class="nav-link" href="index.html"> Home</a>
+                  </li>
+                  <li id="navMenuButton" class="nav-item">
+                    <a class="nav-link" href="#" onclick="$dc.loadMenuCategories();"> Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">specials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>    
+    
+ </header>
+ <div id="caller-btn" class="visible-xs">
+  <a class="btn" href="tel:410-602-5008">
+  <span class="glyphicon glyphicon-earphone"></span>
+  410-602-5008
+  </a>
+</div>
+<div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+ <div id="main-content" class="container"></div>
+
+        <footer class="panel-footer">
+          <div class="container">
+            <div class="row">
+              <section id="hours" class="col-sm-4">
+                <span>hours:</span><br>
+                sun-thurs: 11:00am to 10:00pm<br>
+                fri: 11:00am to 02:30pm
+                satur: closed.
+                 <hr class="visible-xs">
+              </section>
+              <section id="address" class="col-sm-4">
+                <span>Address:</span><br>
+                7105 reisterTown road<br>
+                beltimore,md-21215<br>
+                <p>*delivery area within 3-4 miles.Minimum order $20 and charge $3 for all delivers.</p>
+                 <hr class="visible-xs">
+              </section>
+              <section id="testimonials" class="col-sm-4">
+                <span>testimonials:</span><br>
+                <p>"this is the best resturent i have ever been."</p>
+                <p>"nice place."</p>
+                <p>"good quality food."</p>
+                <hr class="visible-xs">
+              </section>
+            </div>
+          </div>
+        </footer>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/ajax-utils.js"></script>
+        <script src="js/script.js"></script>  
+</body>
+</html>
